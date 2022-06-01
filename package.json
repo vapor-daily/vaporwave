@@ -1,0 +1,25 @@
+{
+  "name": "vaporwave",
+  "productName": "vaporwave",
+  "version": "0.0.1",
+  "description": "vaporwave",
+  "author": {
+    "name": "mlmdflr",
+    "email": "liao520ly@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "esno scripts/dev.ts",
+    "build": "vite build --config scripts/vite.config.ts"
+  },
+  "devDependencies": {
+    "@emotion/css": "^11.9.0",
+    "@types/node": "^17.0.38",
+    "esno": "^0.16.3",
+    "mm-tool": "1.0.0",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.5",
+    "vite-plugin-babel-macros": "^1.0.6",
+    "ym-web": "^0.0.2"
+  }
+}
