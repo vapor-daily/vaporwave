@@ -1,10 +1,11 @@
 import { css } from '@emotion/css/macro';
 
-export const index = css`
+export const index = (url: string) => css`
   height: 100%;
+  width: 100%;
   padding: 60px 10px 10px;
-  > .title {
-    height: 30px;
-    font: bolder 16px/30px normal;
-  }
+  background: url("${url}");
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
 `;

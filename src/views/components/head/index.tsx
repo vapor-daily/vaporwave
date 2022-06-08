@@ -1,5 +1,4 @@
 import { useDV } from 'ym-web';
-
 import { head } from './style';
 
 export default class {
@@ -15,13 +14,16 @@ export default class {
       data.value = Date();
     }, 1000);
     return (
-      <div class={head}>
-        <div class="content">
-          <div class="title" onClick={this.test}>
-            vaporwave - {view}
+      <>
+        <div class={head}>
+          <div class="content">
+            <div class="title" onClick={this.test}>
+              vaporwave - {view}
+            </div>
           </div>
         </div>
-      </div>
+        <div id="player"></div>
+      </>
     );
   }
 }

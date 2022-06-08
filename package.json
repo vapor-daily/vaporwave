@@ -15,6 +15,7 @@
   "devDependencies": {
     "@emotion/css": "^11.9.0",
     "@types/node": "^17.0.38",
+    "aplayer": "^1.10.1",
     "esno": "^0.16.3",
     "mm-tool": "1.0.0",
     "prettier": "^2.6.2",

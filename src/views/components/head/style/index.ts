@@ -11,7 +11,7 @@ export const head = css`
   justify-content: space-between;
   align-items: center;
   color: var(--white);
-  background-color: var(--black);
+  background-color: #222;
   > .content {
     padding-left: 10px;
     width: 100%;
@@ -19,7 +19,6 @@ export const head = css`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     > .title {
       font: normal 13px /13px;
     }

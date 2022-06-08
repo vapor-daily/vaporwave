@@ -14,7 +14,13 @@ export const viteConfig: InlineConfig = {
     jsxFragment: 'f'
   },
   server: {
-    host: '::'
+    host: '::',
+    proxy: {
+      '/api': {
+        target: 'https://wallhaven.cc',
+        changeOrigin: true
+      },
+    }
   },
   build: {
     outDir,
